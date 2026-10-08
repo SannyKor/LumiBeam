@@ -11,10 +11,10 @@ namespace LumiBeam.Domain.Entities
         public string Barcode { get; set; } = string.Empty;
         public string Name { get; set; } = string.Empty;
 
-        public decimal Price { get; set; }
-        public decimal CostPrice { get; set; }
-        public int StockQuantity { get; set; }
+        public decimal RetailPrice { get; set; }
+        public decimal BonusPerUnit { get; set; }
         public int CategoryId { get; set; }
         public Category Category { get; set; } = new Category();
+        public ICollection<SaleRecord> SaleRecords { get; set; } = new List<SaleRecord>();
     }
 }
