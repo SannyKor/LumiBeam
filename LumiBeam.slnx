@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="LumiBeam.API/LumiBeam.API.csproj" Id="85d7799f-d10f-413d-a424-96aff9a5437f" />
   <Project Path="LumiBeam.Domain/LumiBeam.Domain.csproj" Id="e3e2a3b9-490a-442a-8a3f-ee4d8f17e1b5" />
   <Project Path="LumiBeam.Infrastructure/LumiBeam.Infrastructure.csproj" Id="70496f1b-dc65-4bee-829a-5831e2443ffc" />
 </Solution>
