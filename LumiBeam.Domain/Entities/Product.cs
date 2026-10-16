@@ -14,7 +14,7 @@ namespace LumiBeam.Domain.Entities
         public decimal RetailPrice { get; set; }
         public decimal BonusPerUnit { get; set; }
         public int CategoryId { get; set; }
-        public Category Category { get; set; } = new Category();
+        public Category Category { get; set; } = null!;
         public ICollection<SaleRecord> SaleRecords { get; set; } = new List<SaleRecord>();
     }
 }

@@ -29,13 +29,11 @@ namespace LumiBeam.Infrastructure.Configurations
 
             builder.Property(t => t.Status)
                 .IsRequired()
-                .HasConversion<int>()
-                .HasDefaultValue(TaskState.ToDo);
+                .HasConversion<int>();
 
             builder.Property(t => t.Priority)
                 .IsRequired()
-                .HasConversion<int>()
-                .HasDefaultValue(TaskPriority.Medium);
+                .HasConversion<int>();
 
             builder.HasOne(t => t.CreatedBy)
                 .WithMany()

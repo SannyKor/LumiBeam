@@ -42,5 +42,4 @@ namespace LumiBeam.Infrastructure.Configurations
                 .OnDelete(DeleteBehavior.Restrict);
         }
     }
-    }
 }

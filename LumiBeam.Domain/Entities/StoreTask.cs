@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using LumiBeam.Domain.Common;
 using LumiBeam.Domain.Entities;
-using LumiBeam.Domain.Enums;
+
 
 namespace LumiBeam.Domain.Entities
 {
